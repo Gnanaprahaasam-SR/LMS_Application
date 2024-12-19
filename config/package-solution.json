@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "learning-management-system-client-side-solution",
+    "id": "aaf87b01-1d05-4645-bddf-065457c1610c",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Learning Management System description"
+      },
+      "longDescription": {
+        "default": "Learning Management System description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "learning-management-system Feature",
+        "description": "The feature that activates elements of the learning-management-system solution.",
+        "id": "efbbb966-97e6-481f-bdc0-8d8d9fd5ce2a",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/learning-management-system.sppkg"
+  }
+}
